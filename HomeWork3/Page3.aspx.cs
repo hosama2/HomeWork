@@ -14,7 +14,7 @@ namespace HomeWork2
             HttpCookie text = new HttpCookie("test", "Cookie");
             Response.Cookies.Add(text);
             HiddenField1.Value = "8";
-            HiddenField1.Value = "9";
+            HiddenField1.Value = "110";
         }
 
         protected void Button1_Click(object sender, EventArgs e)
